@@ -1,0 +1,330 @@
+0000.000 (0) Opened log file at time: Sat, 15 Oct 2022 23:28:48 +0000 on https://starterpistol.ramirezsolutions.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.0.2 PHP: 7.4.32 (apache2handler, Linux giowm1051.siteground.biz 3.12.18-clouder0 #3 SMP PREEMPT Wed May 25 12:13:20 EEST 2022 x86_64) MySQL: 5.7.39-42-log (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 768M (used: 57.2M | 4M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 879151.4 MB
+0000.003 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.004 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.005 (0) Set semaphore last lock (fd) time to 2022-10-15 23:28:48
+0000.005 (0) Semaphore lock (fd) complete
+0000.008 (0) Backup run: resumption=0, nonce=23546a71d01b, file_nonce=23546a71d01b begun at=1665876528 (0s ago), job type=backup
+0000.009 (0) Scheduling a resumption (1) after 300 seconds (1665876828) in case this run gets aborted
+0000.011 (0) Checking if we have a zip executable available
+0000.011 (0) Testing: /usr/bin/zip
+0000.015 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.016 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.016 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.016 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.017 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.037 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.038 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.040 (0) Working binary zip found: /usr/bin/zip
+0000.041 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.042 (0) Creation of backups of directories: beginning
+0000.043 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.174 (0) Total entities for the zip file: 720 directories, 4281 files (0 skipped as non-modified), 63.9 MB
+0000.179 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.182 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.185 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.188 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.191 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.194 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.197 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.200 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.203 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.206 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.207 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.8 MB, 4281 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.966 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: size is now: 6.70 MB
+0000.973 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 1100 files added (on-disk size: 6857.1 KB)
+0000.976 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 1200 files added (on-disk size: 6857.1 KB)
+0000.979 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 1300 files added (on-disk size: 6857.1 KB)
+0000.982 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 1400 files added (on-disk size: 6857.1 KB)
+0000.985 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 1500 files added (on-disk size: 6857.1 KB)
+0000.988 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 1600 files added (on-disk size: 6857.1 KB)
+0000.991 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 1700 files added (on-disk size: 6857.1 KB)
+0000.995 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 1800 files added (on-disk size: 6857.1 KB)
+0000.998 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 1900 files added (on-disk size: 6857.1 KB)
+0001.001 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 2000 files added (on-disk size: 6857.1 KB)
+0001.002 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.2 MB, 4281 files batched, 1001 (2002) added so far); re-opening (prior size: 6857.1 KB)
+0001.503 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: size is now: 10.70 MB
+0001.508 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 2100 files added (on-disk size: 10943.1 KB)
+0001.513 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 2200 files added (on-disk size: 10943.1 KB)
+0001.516 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 2300 files added (on-disk size: 10943.1 KB)
+0001.520 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 2400 files added (on-disk size: 10943.1 KB)
+0001.523 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 2500 files added (on-disk size: 10943.1 KB)
+0001.527 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 2600 files added (on-disk size: 10943.1 KB)
+0001.530 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 2700 files added (on-disk size: 10943.1 KB)
+0001.534 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 2800 files added (on-disk size: 10943.1 KB)
+0001.537 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 2900 files added (on-disk size: 10943.1 KB)
+0001.540 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 3000 files added (on-disk size: 10943.1 KB)
+0001.541 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.2 MB, 4281 files batched, 1001 (3003) added so far); re-opening (prior size: 10943.1 KB)
+0002.444 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: size is now: 16.50 MB
+0002.450 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 3100 files added (on-disk size: 16924.2 KB)
+0002.454 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 3200 files added (on-disk size: 16924.2 KB)
+0002.458 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 3300 files added (on-disk size: 16924.2 KB)
+0002.461 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 3400 files added (on-disk size: 16924.2 KB)
+0002.465 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 3500 files added (on-disk size: 16924.2 KB)
+0002.469 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 3600 files added (on-disk size: 16924.2 KB)
+0002.473 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 3700 files added (on-disk size: 16924.2 KB)
+0002.476 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 3800 files added (on-disk size: 16924.2 KB)
+0002.480 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 3900 files added (on-disk size: 16924.2 KB)
+0002.484 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 4000 files added (on-disk size: 16924.2 KB)
+0002.484 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.6 MB, 4281 files batched, 1001 (4004) added so far); re-opening (prior size: 16924.2 KB)
+0002.933 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 4100 files added (on-disk size: 19558.8 KB)
+0002.936 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.tmp: 4200 files added (on-disk size: 19558.8 KB)
+0003.102 (0) Creating zip file manifest (backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.list-temp.tmp)
+0003.122 (0) Successfully created zip file manifest (size: 346875)
+0003.295 (0) Created plugins zip (0) - 19853.7 KB in 3.3 s (6108.3 KB/s) (sha1: 42cc1cad6c5c338b71995f96d52f6ed90ee2e39f, sha256: 87fa574bb62c00bb471cf75904df6810bf06c256ba628989007ce8900a08c688)
+0003.300 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.300 (0) No remote despatch: user chose no remote backup service
+0003.301 (0) Recording as successfully uploaded: backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip
+0003.302 (0) Deleting zip manifest (backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip.list.tmp)
+0003.303 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0003.304 (0) Number of backup sets in history: 0; groups (db): 1
+0003.304 (0) Number of backup sets in history: 0; groups (files): 1
+0003.304 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0003.307 (0) Beginning creation of dump of themes (split every: 400 MB)
+0003.316 (0) Total entities for the zip file: 15 directories, 229 files (0 skipped as non-modified), 3.9 MB
+0003.320 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.323 (0) Zip: backup_2022-10-15-2328_StarterPistol_23546a71d01b-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.425 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-themes.zip.tmp: size is now: 3.70 MB
+0003.428 (0) Creating zip file manifest (backup_2022-10-15-2328_StarterPistol_23546a71d01b-themes.zip.list-temp.tmp)
+0003.430 (0) Successfully created zip file manifest (size: 14558)
+0003.465 (0) Created themes zip (0) - 3759.9 KB in 0.2 s (24227.3 KB/s) (sha1: 0c2e54013015f612447d13326244b03616065723, sha256: cb3a38632e7e070b61a3df12f48430b97530e04758a8877c35e7849a194a33c6)
+0003.467 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.467 (0) No remote despatch: user chose no remote backup service
+0003.468 (0) Recording as successfully uploaded: backup_2022-10-15-2328_StarterPistol_23546a71d01b-themes.zip
+0003.468 (0) Deleting zip manifest (backup_2022-10-15-2328_StarterPistol_23546a71d01b-themes.zip.list.tmp)
+0003.470 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0003.470 (0) Number of backup sets in history: 0; groups (db): 1
+0003.471 (0) Number of backup sets in history: 0; groups (files): 1
+0003.471 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0003.474 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0003.474 (0) Looking for candidates to backup in: /home/customer/www/starterpistol.ramirezsolutions.com/public_html/wp-content/uploads
+0003.475 (0) finding files: 2020: adding to list (1)
+0003.475 (0) finding files: 2021: adding to list (2)
+0003.476 (0) finding files: gravity_forms: adding to list (3)
+0003.476 (0) finding files: 2022: adding to list (4)
+0003.476 (0) finding files: wp-file-manager-pro: adding to list (5)
+0003.477 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0003.480 (0) Total entities for the zip file: 35 directories, 7 files (0 skipped as non-modified), 0 MB
+0003.502 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-uploads.zip.tmp: size is now: 0.00 MB
+0003.504 (0) Creating zip file manifest (backup_2022-10-15-2328_StarterPistol_23546a71d01b-uploads.zip.list-temp.tmp)
+0003.504 (0) Successfully created zip file manifest (size: 392)
+0003.507 (0) Created uploads zip (0) - 50.5 KB in 0 s (1748.7 KB/s) (sha1: 429025a4fa58bcddfda27b23f390b6751193dd0a, sha256: 57f06376f6ea7e95cfaa17dab8aab570f318ccf514266db318909e52b4ea8b79)
+0003.509 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.509 (0) No remote despatch: user chose no remote backup service
+0003.509 (0) Recording as successfully uploaded: backup_2022-10-15-2328_StarterPistol_23546a71d01b-uploads.zip
+0003.510 (0) Deleting zip manifest (backup_2022-10-15-2328_StarterPistol_23546a71d01b-uploads.zip.list.tmp)
+0003.511 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0003.512 (0) Number of backup sets in history: 0; groups (db): 1
+0003.512 (0) Number of backup sets in history: 0; groups (files): 1
+0003.513 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0003.516 (0) Beginning backup of other directories found in the content directory (index: 0)
+0003.516 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0003.516 (0) Looking for candidates to backup in: /home/customer/www/starterpistol.ramirezsolutions.com/public_html/wp-content
+0003.517 (0) finding files: plugins: skipping: this is the plugins directory
+0003.517 (0) finding files: upgrade: skipping: excluded by options
+0003.518 (0) finding files: themes: skipping: this is the themes directory
+0003.518 (0) finding files: updraft: skipping: this is the updraft directory
+0003.518 (0) finding files: mu-plugins: adding to list (1)
+0003.519 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0003.519 (0) finding files: index.php: adding to list (2)
+0003.519 (0) finding files: uploads: skipping: this is the uploads directory
+0003.522 (0) Total entities for the zip file: 1 directories, 2 files (0 skipped as non-modified), 0 MB
+0003.541 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-others.zip.tmp: size is now: 0.00 MB
+0003.542 (0) Creating zip file manifest (backup_2022-10-15-2328_StarterPistol_23546a71d01b-others.zip.list-temp.tmp)
+0003.543 (0) Successfully created zip file manifest (size: 76)
+0003.545 (0) Created others zip (0) - 1 KB in 0 s (41.6 KB/s) (sha1: c4421eb3a6126d096fcb8f084758a11f20147a21, sha256: d3fe3d3cdd38efdd4591f3e5ddc484338bd59eda5271b917310ba70f5dfa2951)
+0003.547 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.547 (0) No remote despatch: user chose no remote backup service
+0003.548 (0) Recording as successfully uploaded: backup_2022-10-15-2328_StarterPistol_23546a71d01b-others.zip
+0003.549 (0) Deleting zip manifest (backup_2022-10-15-2328_StarterPistol_23546a71d01b-others.zip.list.tmp)
+0003.550 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0003.550 (0) Number of backup sets in history: 0; groups (db): 1
+0003.551 (0) Number of backup sets in history: 0; groups (files): 1
+0003.551 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0003.555 (0) Saving backup status to database (elements: 8)
+0003.556 (0) Beginning creation of database dump (WordPress DB)
+0003.556 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0003.557 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0003.571 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1559 bytes total)
+0003.572 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0003.637 (0) Table wp_options: Total expected rows (via COUNT): 664
+0003.736 (0) Table wp_options: Rows added in this batch (next record: 44946): 658 (uncompressed bytes in this segment=1735896) in 0.16 seconds
+0003.741 (0) Table wp_options: finishing file(s) (2, 378.1 KB)
+0003.747 (0) Table wp_users: Total expected rows (via COUNT): 2
+0003.748 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.749 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1556) in 0.00 seconds
+0003.751 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0003.753 (0) Table wp_usermeta: Total expected rows (via COUNT): 54
+0003.754 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.755 (0) Table wp_usermeta: Rows added in this batch (next record: 55): 54 (uncompressed bytes in this segment=13502) in 0.00 seconds
+0003.757 (0) Table wp_usermeta: finishing file(s) (2, 3.5 KB)
+0003.768 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0003.769 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.01 seconds
+0003.771 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0003.773 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0003.774 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.775 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2137) in 0.00 seconds
+0003.777 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0003.780 (0) Table wp_links: Total expected rows (via COUNT): 0
+0003.781 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0003.783 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0003.786 (0) Table wp_postmeta: Total expected rows (approximate): 1616
+0003.794 (0) Table wp_postmeta: Rows added in this batch (next record: 2227): 1633 (uncompressed bytes in this segment=92434) in 0.01 seconds
+0003.796 (0) Table wp_postmeta: finishing file(s) (2, 12.2 KB)
+0003.799 (0) Table wp_posts: Total expected rows (via COUNT): 155
+0003.800 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.805 (0) Table wp_posts: Rows added in this batch (next record: 204): 155 (uncompressed bytes in this segment=112658) in 0.01 seconds
+0003.807 (0) Table wp_posts: finishing file(s) (2, 11.7 KB)
+0003.809 (0) Table wp_term_relationships: Total expected rows (approximate): 20
+0003.810 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 22 (uncompressed bytes in this segment=982) in 0.00 seconds
+0003.812 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0003.815 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 2
+0003.815 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.816 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=957) in 0.00 seconds
+0003.818 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0003.821 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0003.822 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0003.824 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0003.826 (0) Table wp_terms: Total expected rows (via COUNT): 2
+0003.826 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.828 (0) Table wp_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=775) in 0.00 seconds
+0003.830 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0003.832 (0) Table wp_gf_draft_submissions: Total expected rows (approximate): 0
+0003.833 (0) Table wp_gf_draft_submissions: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=851) in 0.00 seconds
+0003.835 (0) Table wp_gf_draft_submissions: finishing file(s) (2, 0.4 KB)
+0003.837 (0) Table wp_gf_entry: Total expected rows (via COUNT): 0
+0003.837 (0) Table wp_gf_entry: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1559) in 0.00 seconds
+0003.839 (0) Table wp_gf_entry: finishing file(s) (2, 0.6 KB)
+0003.842 (0) Table wp_gf_entry_meta: Total expected rows (via COUNT): 0
+0003.843 (0) Table wp_gf_entry_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=838) in 0.00 seconds
+0003.845 (0) Table wp_gf_entry_meta: finishing file(s) (2, 0.4 KB)
+0003.848 (0) Table wp_gf_entry_notes: Total expected rows (via COUNT): 0
+0003.849 (0) Table wp_gf_entry_notes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=890) in 0.00 seconds
+0003.851 (0) Table wp_gf_entry_notes: finishing file(s) (2, 0.4 KB)
+0003.854 (0) Table wp_gf_form: Total expected rows (via COUNT): 0
+0003.854 (0) Table wp_gf_form: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.00 seconds
+0003.856 (0) Table wp_gf_form: finishing file(s) (2, 0.4 KB)
+0003.859 (0) Table wp_gf_form_meta: Total expected rows (via COUNT): 0
+0003.860 (0) Table wp_gf_form_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=663) in 0.00 seconds
+0003.862 (0) Table wp_gf_form_meta: finishing file(s) (2, 0.4 KB)
+0003.865 (0) Table wp_gf_form_revisions: Total expected rows (via COUNT): 0
+0003.866 (0) Table wp_gf_form_revisions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=663) in 0.00 seconds
+0003.868 (0) Table wp_gf_form_revisions: finishing file(s) (2, 0.4 KB)
+0003.870 (0) Table wp_gf_form_view: Total expected rows (via COUNT): 0
+0003.871 (0) Table wp_gf_form_view: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=691) in 0.00 seconds
+0003.872 (0) Table wp_gf_form_view: finishing file(s) (2, 0.4 KB)
+0003.875 (0) Table wp_gf_rest_api_keys: Total expected rows (via COUNT): 0
+0003.876 (0) Table wp_gf_rest_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1022) in 0.00 seconds
+0003.878 (0) Table wp_gf_rest_api_keys: finishing file(s) (2, 0.5 KB)
+0003.883 (0) Table wp_wpfm_backup: Total expected rows (via COUNT): 0
+0003.883 (0) Table wp_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=514) in 0.00 seconds
+0003.885 (0) Table wp_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0003.888 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 152
+0003.889 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.894 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 178): 152 (uncompressed bytes in this segment=67067) in 0.01 seconds
+0003.897 (0) Table wp_yoast_indexable: finishing file(s) (2, 7.4 KB)
+0003.899 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 114
+0003.901 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 121 (uncompressed bytes in this segment=2936) in 0.00 seconds
+0003.902 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.7 KB)
+0003.905 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 23
+0003.905 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.906 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1244) in 0.00 seconds
+0003.908 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0003.910 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0003.911 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.00 seconds
+0003.913 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0003.915 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 6
+0003.915 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.916 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 8): 6 (uncompressed bytes in this segment=1922) in 0.00 seconds
+0003.918 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.7 KB)
+0003.920 (0) Table wp_yoast_seo_meta: Total expected rows (via COUNT): 16
+0003.920 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.921 (0) Table wp_yoast_seo_meta: Rows added in this batch (next record: 71): 16 (uncompressed bytes in this segment=801) in 0.00 seconds
+0003.923 (0) Table wp_yoast_seo_meta: finishing file(s) (2, 0.4 KB)
+0003.924 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_options.table.tmpr44947.gz (1/28/fopen): adding to final database dump
+0003.932 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_options.table.gz (2/28/fopen): adding to final database dump
+0003.932 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_users.table.tmpr3.gz (3/28/fopen): adding to final database dump
+0003.932 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_users.table.gz (4/28/fopen): adding to final database dump
+0003.933 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_usermeta.table.tmpr56.gz (5/28/fopen): adding to final database dump
+0003.933 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_usermeta.table.gz (6/28/fopen): adding to final database dump
+0003.933 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_commentmeta.table.tmpr0.gz (7/28/fopen): adding to final database dump
+0003.934 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_commentmeta.table.gz (8/28/fopen): adding to final database dump
+0003.934 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_comments.table.tmpr2.gz (9/28/fopen): adding to final database dump
+0003.935 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_comments.table.gz (10/28/fopen): adding to final database dump
+0003.935 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_links.table.tmpr0.gz (11/28/fopen): adding to final database dump
+0003.935 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_links.table.gz (12/28/fopen): adding to final database dump
+0003.936 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_postmeta.table.tmpr2228.gz (13/28/fopen): adding to final database dump
+0003.936 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_postmeta.table.gz (14/28/fopen): adding to final database dump
+0003.937 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_posts.table.tmpr205.gz (15/28/fopen): adding to final database dump
+0003.937 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_posts.table.gz (16/28/fopen): adding to final database dump
+0003.938 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_term_relationships.table.tmpr100001.gz (17/28/fopen): adding to final database dump
+0003.938 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_term_relationships.table.gz (18/28/fopen): adding to final database dump
+0003.938 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_term_taxonomy.table.tmpr3.gz (19/28/fopen): adding to final database dump
+0003.939 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_term_taxonomy.table.gz (20/28/fopen): adding to final database dump
+0003.939 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_termmeta.table.tmpr0.gz (21/28/fopen): adding to final database dump
+0003.939 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_termmeta.table.gz (22/28/fopen): adding to final database dump
+0003.940 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_terms.table.tmpr3.gz (23/28/fopen): adding to final database dump
+0003.940 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_terms.table.gz (24/28/fopen): adding to final database dump
+0003.940 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_gf_draft_submissions.table.tmpr1.gz (25/28/fopen): adding to final database dump
+0003.941 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_gf_draft_submissions.table.gz (26/28/fopen): adding to final database dump
+0003.941 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_gf_entry.table.tmpr0.gz (27/28/fopen): adding to final database dump
+0003.942 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_gf_entry.table.gz (28/28/fopen): adding to final database dump
+0003.942 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_gf_entry_meta.table.tmpr0.gz (29/28/fopen): adding to final database dump
+0003.943 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_gf_entry_meta.table.gz (30/28/fopen): adding to final database dump
+0003.943 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_gf_entry_notes.table.tmpr0.gz (31/28/fopen): adding to final database dump
+0003.943 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_gf_entry_notes.table.gz (32/28/fopen): adding to final database dump
+0003.944 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_gf_form.table.tmpr0.gz (33/28/fopen): adding to final database dump
+0003.944 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_gf_form.table.gz (34/28/fopen): adding to final database dump
+0003.945 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_gf_form_meta.table.tmpr0.gz (35/28/fopen): adding to final database dump
+0003.945 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_gf_form_meta.table.gz (36/28/fopen): adding to final database dump
+0003.945 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_gf_form_revisions.table.tmpr0.gz (37/28/fopen): adding to final database dump
+0003.946 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_gf_form_revisions.table.gz (38/28/fopen): adding to final database dump
+0003.946 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_gf_form_view.table.tmpr0.gz (39/28/fopen): adding to final database dump
+0003.947 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_gf_form_view.table.gz (40/28/fopen): adding to final database dump
+0003.947 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_gf_rest_api_keys.table.tmpr0.gz (41/28/fopen): adding to final database dump
+0003.947 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_gf_rest_api_keys.table.gz (42/28/fopen): adding to final database dump
+0003.948 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_wpfm_backup.table.tmpr0.gz (43/28/fopen): adding to final database dump
+0003.948 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_wpfm_backup.table.gz (44/28/fopen): adding to final database dump
+0003.948 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_yoast_indexable.table.tmpr179.gz (45/28/fopen): adding to final database dump
+0003.949 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_yoast_indexable.table.gz (46/28/fopen): adding to final database dump
+0003.949 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (47/28/fopen): adding to final database dump
+0003.950 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_yoast_indexable_hierarchy.table.gz (48/28/fopen): adding to final database dump
+0003.950 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_yoast_migrations.table.tmpr24.gz (49/28/fopen): adding to final database dump
+0003.950 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_yoast_migrations.table.gz (50/28/fopen): adding to final database dump
+0003.951 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_yoast_primary_term.table.tmpr0.gz (51/28/fopen): adding to final database dump
+0003.951 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_yoast_primary_term.table.gz (52/28/fopen): adding to final database dump
+0003.951 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_yoast_seo_links.table.tmpr9.gz (53/28/fopen): adding to final database dump
+0003.952 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_yoast_seo_links.table.gz (54/28/fopen): adding to final database dump
+0003.952 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_yoast_seo_meta.table.tmpr72.gz (55/28/fopen): adding to final database dump
+0003.953 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db-table-wp_yoast_seo_meta.table.gz (56/28/fopen): adding to final database dump
+0003.955 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db.gz: finished writing out complete database file (423.9 KB)
+0003.963 (0) Total database tables backed up: 28 (backup_2022-10-15-2328_StarterPistol_23546a71d01b-db.gz, size: 434173, sha1: dba5a8cb2fc8663c3e5329975899ec41ff7aadc6, sha256: aac437ccdc041c953d80b701df1b901446fd1ccb4ea28ae148eb4b2508edb6db)
+0003.966 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-plugins.zip: plugins: This file has already been successfully uploaded
+0003.967 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-themes.zip: themes: This file has already been successfully uploaded
+0003.967 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-uploads.zip: uploads: This file has already been successfully uploaded
+0003.967 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-others.zip: others: This file has already been successfully uploaded
+0003.968 (0) backup_2022-10-15-2328_StarterPistol_23546a71d01b-db.gz: db: This file has not yet been successfully uploaded: will queue
+0003.968 (0) Saving backup history. Total backup size: 23.5 MB
+0003.970 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0003.971 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.972 (0) No remote despatch: user chose no remote backup service
+0003.972 (0) Recording as successfully uploaded: backup_2022-10-15-2328_StarterPistol_23546a71d01b-db.gz
+0003.974 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0003.974 (0) Number of backup sets in history: 1; groups (db): 1
+0003.975 (0) Examining (for databases) backup set with group_id=0, nonce=23546a71d01b, datestamp=1665876528 (Oct 15 2022 23:28:48)
+0003.975 (0) This backup set is the backup set just made, so will not be deleted.
+0003.975 (0) Number of backup sets in history: 1; groups (files): 1
+0003.975 (0) Examining (for files) backup set with nonce=23546a71d01b, datestamp=1665876528 (Oct 15 2022 23:28:48)
+0003.975 (0) This backup set is the backup set just made, so will not be deleted.
+0003.976 (0) This backup set is the backup set just made, so will not be deleted.
+0003.976 (0) This backup set is the backup set just made, so will not be deleted.
+0003.976 (0) This backup set is the backup set just made, so will not be deleted.
+0003.976 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.976 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0003.977 (0) Resume backup (23546a71d01b, 0): finish run
+0003.978 (0) Decremented the semaphore (fd) by 1
+0003.979 (0) Semaphore (fd) unlocked
+0003.979 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0003.980 (0) No email will/can be sent - the user has not configured an email address.
+0003.981 (0) The backup apparently succeeded and is now complete

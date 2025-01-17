@@ -1,0 +1,672 @@
+/*   
+Theme Name: Starterpistol
+Author: Anthony Ramirez
+Author URI: https://www.ramirezsolutions.com
+Version: 1.10.3
+*/
+
+/****************************************
+ Global Styles
+****************************************/
+html {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+*,
+*:before,
+*:after {
+  /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  	box-sizing: inherit;
+}
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+  	color: var(--copy);
+  	font-family: var(--font-family);
+  	line-height: 1.5;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  	display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  	display: inline-block;
+  	vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  	display: none;
+  	height: 0;
+}
+
+[hidden],
+template {
+  	display: none;
+}
+
+abbr[title] {
+  	border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  	font-weight: 600;
+}
+
+body {
+	background: var(--background-color);
+	/* Fallback for when there is no custom background color defined. */
+	margin: 0;
+	position: relative;
+}
+
+blockquote, q {
+  	quotes: "" "";
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  	content: "";
+}
+
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-family: var(--font-secondary);
+	font-weight: 600;
+}
+
+pre {
+  	overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+  	font-family: var(--font-family);
+  	font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	color: inherit;
+  	font: inherit;
+  	margin: 0;
+}
+
+button {
+  	overflow: visible;
+}
+
+button,
+select {
+  	text-transform: none;
+}
+
+hr {
+	background-color: #ccc;
+	border: 0;
+	box-sizing: content-box;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+img {
+	border: 0;
+	height: auto;
+	/* Make sure images are scaled correctly. */
+	max-width: 100%;
+	/* Adhere to container width. */
+}
+
+img.lazy {
+	background-image: none;
+	background-color: #eee;
+}
+
+figure {
+  	margin: 1em 0;
+  /* Extra wide images within figure tags don't overflow the content area. */
+}
+
+p {
+	font-size: var(--base-font);
+	color: var(--copy);
+	line-height: 1.2;
+	margin-bottom: 1.5em;
+}
+
+dfn, cite, em, i {
+  	font-style: italic;
+}
+
+blockquote {
+  	margin: 0 1.5em;
+}
+
+address {
+  	margin: 0 0 1.5em;
+}
+
+pre {
+	background: #eee;
+	font-family: var(--font-family);
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+code, kbd, tt, var {
+  	font-family: var(--font-family);
+}
+
+abbr, acronym {
+  	border-bottom: 1px dotted #666;
+  	cursor: help;
+}
+
+mark, ins {
+  	background: #fff9c0;
+  	text-decoration: none;
+}
+
+big {
+  	font-size: var(--font-2x);
+}
+
+ul, ol {
+  	margin: 0 0 1.5em 3em;
+}
+
+ul {
+  	list-style: disc;
+}
+
+ol {
+  	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+  	margin-bottom: 0;
+  	margin-left: 1.5em;
+}
+
+dt {
+  	font-weight: 600;
+}
+
+dd {
+  	margin: 0 1.5em 1.5em;
+}
+
+mark {
+  	background: #ff0;
+  	color: #000;
+}
+
+small {
+  	font-size: var(--font-sm);
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+  	top: -0.5em;
+}
+
+sub {
+  	bottom: -0.25em;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+
+td,
+th {
+  	padding: 0;
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+  	cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  	border: 0;
+  	padding: 0;
+}
+
+input {
+  	line-height: normal;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  	box-sizing: border-box;
+  	padding: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  	height: auto;
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+  	-webkit-appearance: none;
+}
+
+fieldset {
+  	border: 1px solid #c0c0c0;
+  	margin: 0 2px;
+  	padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  	border: 0;
+  	padding: 0;
+}
+
+textarea {
+  	overflow: auto;
+}
+
+optgroup {
+  	font-weight: 600;
+}
+
+/****************************************
+ Accessibility
+****************************************/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	word-wrap: normal !important;
+	/* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  	outline: 0;
+}
+
+/****************************************
+ Alignments
+****************************************/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/****************************************
+ Captions
+****************************************/
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*=wp-image-] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+  	margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+  	text-align: center;
+}
+
+/****************************************
+ Clearings
+****************************************/
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+  	clear: both;
+}
+
+/****************************************
+ Social Media
+****************************************/
+.social-media ul {
+	margin: 0;
+	padding: 0;
+}
+.social-media ul li {
+    display: inline-block;
+    margin: 0 1em 0 0;
+}
+
+.social-media ul li a {
+	color: var(--dark-gray);
+	font-size: var(--font-lg);
+}
+
+.social-media ul li a:hover {
+	color: var(--primary-color);
+}
+
+.social-media--footer ul {
+	margin: 1em 0 0 0;
+}
+
+.social-media--header {
+    float: right;
+}
+
+span[class*="socicon-"]:before {
+	background-repeat: no-repeat;
+	content: "";
+	display: inline-block;
+	-webkit-filter: brightness(0) saturate(100%) invert(34%) sepia(0%) saturate(1715%) hue-rotate(156deg) brightness(88%) contrast(66%);
+    filter: brightness(0) saturate(100%) invert(34%) sepia(0%) saturate(1715%) hue-rotate(156deg) brightness(88%) contrast(66%);
+	height: 21px;
+	width: 21px;
+}
+
+span[class*="socicon-"]:hover:before {
+	-webkit-filter: brightness(0) saturate(100%) invert(12%) sepia(27%) saturate(4857%) hue-rotate(341deg) brightness(98%) contrast(92%);
+    filter: brightness(0) saturate(100%) invert(12%) sepia(27%) saturate(4857%) hue-rotate(341deg) brightness(98%) contrast(92%);
+}
+
+.socicon-amazon:before {
+	background-image: url(images/icon-amazon.svg);
+}
+
+.socicon-anchor:before {
+	background-image: url(images/anchor-fm.svg);
+}
+
+.socicon-apple:before {
+	background-image: url(images/icon-apple.svg);
+}
+
+.socicon-audiomack:before {
+	background-image: url(images/audiomack-logo-black.svg);
+}
+
+.socicon-bandcamp:before {
+	background-image: url(images/bandcamp.svg);
+}
+
+.socicon-blogger:before {
+	background-image: url(images/blogger.svg);
+}
+
+.socicon-deviantart:before {
+	background-image: url(images/deviantart.svg);
+}
+
+.socicon-discord:before {
+	background-image: url(images/Discord-Logo-Black.svg);
+}
+
+.socicon-email:before {
+	background-image: url(images/envelope-regular.svg);
+}
+
+.socicon-facebook:before {
+	background-image: url(images/facebook-f-brands.svg);
+}
+
+.socicon-flickr:before {
+	background-image: url(images/flickr.svg);
+}
+
+.socicon-github:before {
+	background-image: url(images/github.svg);
+}
+
+.socicon-houzz:before {
+	background-image: url(images/houzz.svg);
+}
+
+.socicon-instagram:before {
+	background-image: url(images/instagram-square-brands.svg);
+}
+
+.socicon-lastfm:before {
+	background-image: url(images/square-lastfm.svg);
+}
+
+.socicon-linkedin:before {
+	background-image: url(images/linkedin-in-brands.svg);
+}
+
+.socicon-linktree:before {
+	background-image: url(images/linktree-brands.svg);
+}
+
+.socicon-meetup:before {
+	background-image: url(images/meetup.svg);
+}
+
+.socicon-myspace:before {
+	background-image: url(images/myspace.svg);
+}
+
+.socicon-pandora:before {
+	background-image: url(images/pandora.svg);
+}
+
+.socicon-patreon:before {
+	background-image: url(images/patreon.svg);
+}
+
+.socicon-paypal:before {
+	background-image: url(images/paypal.svg);
+}
+
+.socicon-pinterest:before {
+	background-image: url(images/pinterest.svg);
+}
+
+.socicon-playstation:before {
+	background-image: url(images/playstation.svg);
+}
+
+.socicon-reddit:before {
+	background-image: url(images/reddit.svg);
+}
+
+.socicon-rss:before {
+	background-image: url(images/square-rss-solid.svg);
+}
+
+.socicon-skype:before {
+	background-image: url(images/skype.svg);
+}
+
+.socicon-snapchat:before {
+	background-image: url(images/snapchat.svg);
+}
+
+.socicon-soundcloud:before {
+	background-image: url(images/soundcloud.svg);
+}
+
+.socicon-spotify:before {
+	background-image: url(images/spotify.svg);
+}
+
+.socicon-stackoverflow:before {
+	background-image: url(images/stack-overflow.svg);
+}
+
+.socicon-telegram:before {
+	background-image: url(images/telegram.svg);
+}
+
+.socicon-tiktok:before {
+	background-image: url(images/tiktok-brands.svg);
+}
+
+.socicon-twitter:before {
+	background-image: url(images/twitter-brands.svg);
+}
+
+.socicon-twitter-x:before {
+	background-image: url(images/twitter-x.svg);
+}
+
+.socicon-tumblr:before {
+	background-image: url(images/tumblr.svg);
+}
+
+.socicon-wordpress:before {
+	background-image: url(images/wordpress.svg);
+}
+
+.socicon-wikipedia:before {
+	background-image: url(images/wikipedia-w.svg);
+}
+
+.socicon-vimeo:before {
+	background-image: url(images/vimeo.svg);
+}
+
+.socicon-vine:before {
+	background-image: url(images/vine.svg);
+}
+
+.socicon-xbox:before {
+	background-image: url(images/xbox.svg);
+}
+
+.socicon-yammer:before {
+	background-image: url(images/yammer.svg);
+}
+
+.socicon-youtube:before {
+	background-image: url(images/youtube-brands.svg);
+}
+
+.socicon-youtube-music:before {
+	background-image: url(images/youtube-music.svg);
+}
+
+.share-buttons {
+  padding: 2em 0 1em 0;
+  text-align: center;
+}
+
+.share-buttons h3 {
+  text-transform: uppercase;
+}
+
+.share-buttons .a2a_kit a {
+  -webkit-filter: invert(98%) sepia(0%) saturate(55%) hue-rotate(258deg)
+    brightness(85%) contrast(86%);
+  filter: invert(98%) sepia(0%) saturate(55%) hue-rotate(258deg) brightness(85%)
+    contrast(86%);
+}
+
+.share-buttons span.a2a_svg.a2a_s__default {
+  background-color: transparent !important;
+}

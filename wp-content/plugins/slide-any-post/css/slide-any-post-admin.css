@@ -1,0 +1,1518 @@
+/*
+#################################################################
+### SLIDE ANY POST PLUGIN - CSS STYLE FOR WORDPRESS DASHBOARD ###
+#################################################################
+*/
+
+/* ### GENERAL STYLE ### */
+.postbox-container .meta-box-sortables .postbox h2 span,
+#post-body-content #advanced-sortables .postbox h2 span {
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:600 !important;
+	font-size:18px !important;
+	line-height:24px !important;
+}
+.sap_hidden {
+	display:none !important;
+}
+.ajax_loading {
+	padding:0px;
+	font-size:16px;
+	line-height:22px;
+	color:#a0a0a0;
+}
+
+/* ### METABOX 'WordPress Post Type' ### */
+#sapa_slider_post_type {
+	margin:20px 0px 0px;
+}
+#sapa_slider_post_type h2 {
+	margin:0px 0px 15px !important;
+}
+#sap_slider_post_type h3 {
+	color:#007db2;
+	margin:10px 0px 10px;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:400;
+	font-size:16px;
+	line-height:22px;
+	cursor:default;
+}
+#sap_slider_post_type h4 {
+	color:#303030;
+	margin:10px 0px 10px;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:600;
+	font-size:14px;
+	line-height:20px;
+	cursor:default;
+}
+#sapa_slider_post_type hr {
+	margin:5px 0px 15px !important;
+	border-top-style:none !important;
+	border-bottom:solid 1px #eeeeee !important;
+}
+/* AVAILABLE POST TYPES DROP-DOWN BOX */
+#sap_slider_post_type #sap_post_type_line {
+	padding:10px 0px 20px;
+}
+#sap_slider_post_type #sap_post_type_line span {
+	display:inline-block;
+	padding-right:10px;
+	font-size:16px;
+	line-height:32px;
+	cursor:default;
+}
+#sap_slider_post_type #sap_post_type_line #sap_post_type {
+	font-size:16px !important;
+	line-height:30px !important;
+	padding:0px 5px !important;
+	height:32px !important;
+	outline: none !important;
+	border: solid 1px #e0e0e0 !important;
+	box-shadow: none !important;
+}
+#sap_slider_post_type #sap_post_type_line #sap_post_type option {
+	padding:0px !important;
+}
+/* AJAX CONTAINER - POST FILTERS */
+#ajax_container_post_type_filters {
+	padding:10px 0px 20px;
+}
+#ajax_container_post_type_filters .filter_half_column {
+	float:left;
+	width:50%;
+}
+#ajax_container_post_type_filters .filter_half_column .no_filters_found {
+	padding:5px 0px 0px;
+	font-size:16px;
+	line-height:22px;
+	color:#a0a0a0;
+}
+#ajax_container_post_type_filters .filter_post_id_title select {
+	width:100px !important;
+}
+/* filter checkbox line */
+#ajax_container_post_type_filters .filter_checkbox_line {
+	margin:5px 0px 10px;
+	padding:0px;
+	clear:both;
+	float:none;
+	width:100%;
+}
+#ajax_container_post_type_filters .filter_checkbox_line span {
+	display:inline-block;
+	width:155px;
+	padding:0px;
+	font-size:13px;
+	line-height:18px;
+	color:#303030;
+	cursor:default;
+}
+/* filter input line */
+#ajax_container_post_type_filters .filter_input_line {
+	margin:0px 0px 10px;
+	padding:0px;
+	clear:both;
+	float:none;
+	width:100%;
+}
+#ajax_container_post_type_filters .filter_input_line > span {
+	display:block;
+	float:left;
+	width:150px;
+	margin-right:5px;
+	padding:4px 0px 0px;
+	font-size:13px;
+	line-height:18px;
+	color:#303030;
+	cursor:default;
+	overflow:hidden;
+	white-space:nowrap;
+}
+#ajax_container_post_type_filters .filter_input_line select {
+	display:block;
+	float:left;
+	margin:0px 5px 5px 0px;
+	padding:0px 4px;
+	font-size:13px;
+	line-height:24px;
+	color:#303030;
+	height:26px !important;
+	outline:none !important;
+	border:solid 1px #e0e0e0 !important;
+	box-shadow:none !important;
+}
+#ajax_container_post_type_filters .filter_input_line input {
+	display:block;
+	float:left;
+	width:200px;
+	margin:0px 0px 5px;
+	padding:0px 7px;
+	font-size:13px;
+	line-height:24px;
+	color:#303030;
+	height:26px !important;
+	outline:none !important;
+	border:solid 1px #e0e0e0 !important;
+	box-shadow:none !important;
+}
+#ajax_container_post_type_filters .filter_input_line i {
+	display:block;
+	float:left;
+	margin:2px 0px 0px 5px;
+	padding:5px 0px;
+	width:22px;
+	text-align:center;
+	font-size:12px;
+	line-height:12px;
+	color:#ffffff;
+	background-color:#007db2;
+	border-radius:50%;
+	cursor:pointer;
+	transition:background .3s ease-in-out;
+	-webkit-transition:background .3s ease-in-out;
+	-moz-transition:background .3s ease-in-out;
+	-o-transition:background .3s ease-in-out;
+}
+#ajax_container_post_type_filters .filter_input_line i:hover {
+	background-color:#000000;
+}
+/* realationship input line */
+#ajax_container_post_type_filters .filter_relation_line {
+	margin:0px;
+	padding:10px 0px 0px;
+	clear:both;
+	float:none;
+	width:100%;
+}
+#ajax_container_post_type_filters .filter_relation_line span {
+	display:inline-block;
+	padding-right:10px;
+	font-size:13px;
+	line-height:18px;
+	color:#303030;
+	cursor:default;
+}
+#ajax_container_post_type_filters .filter_relation_line select {
+	margin:0px;
+	padding:0px 4px;
+	font-size:13px;
+	line-height:24px;
+	color:#303030;
+	height:26px !important;
+	outline:none !important;
+	border:solid 1px #e0e0e0 !important;
+	box-shadow:none !important;
+}
+#ajax_container_post_type_filters input::-webkit-input-placeholder { color:#d0d0d0 !important; }
+#ajax_container_post_type_filters input:-moz-placeholder { color:#d0d0d0 !important; }
+#ajax_container_post_type_filters input::-moz-placeholder {  color:#d0d0d0 !important; }
+#ajax_container_post_type_filters input:-ms-input-placeholder { color:#d0d0d0 !important; }
+
+#ajax_container_post_type_filters #meta_filters_note {
+	clear:both;
+	float:none;
+	padding:10px 0px 0px;
+	font-size:13px;
+	line-height:22px;
+	color:#a0a0a0;
+}
+#ajax_container_post_type_filters #meta_filters_note strong {
+	font-weight:400;
+	color:#303030;
+}
+#ajax_container_post_type_filters #meta_filters_note em {
+	font-style:normal;
+	color:crimson;
+}
+#ajax_container_post_type_filters #meta_filters_note i {
+	display:inline-block;
+	padding:5px 0px;
+	width:22px;
+	text-align:center;
+	font-size:12px;
+	line-height:12px;
+	color:#ffffff;
+	background-color:#007db2;
+	border-radius:50%;
+}
+@media screen and (max-width: 1549px) {
+	#ajax_container_post_type_filters .filter_input_line > span { width:130px; }
+	#ajax_container_post_type_filters .filter_half_column .filter_input_line input { width:150px; }
+	#ajax_container_post_type_filters .filter_half_column .filter_input_line select { width:90px; }
+}
+@media screen and (max-width: 1399px) {
+	#ajax_container_post_type_filters .filter_half_column { float:none; width:100%; }
+	#ajax_container_post_type_filters .fhc_col2 { padding-top:20px; }
+	#ajax_container_post_type_filters .filter_input_line > span { width:150px; }
+	#ajax_container_post_type_filters .filter_half_column .filter_input_line input { width:200px; }
+	#ajax_container_post_type_filters .filter_half_column .filter_input_line select { width:100px; }
+}
+@media screen and (max-width: 1099px) {
+	#ajax_container_post_type_filters .filter_post_id_title input,
+	#ajax_container_post_type_filters .filter_half_column .filter_input_line input { width:150px; }
+	#ajax_container_post_type_filters .filter_half_column .filter_input_line select { width:90px; }
+}
+@media screen and (max-width: 599px) {
+	#ajax_container_post_type_filters .filter_input_line > span { width:130px; }
+	#ajax_container_post_type_filters .filter_post_id_title span { min-width:0px !important; }
+}
+@media screen and (max-width: 479px) {
+	#ajax_container_post_type_filters .filter_half_column .filter_input_line > span { width:100%; padding:10px 0px 3px; }
+	#ajax_container_post_type_filters .filter_half_column .filter_input_line select { width:100px; }
+	#ajax_container_post_type_filters .filter_post_id_title input,
+	#ajax_container_post_type_filters .filter_half_column .filter_input_line input { width:90%; }
+}
+
+/* TAXONOMY SLUG LOOKUP POPUP (WITH AJAX CONTAINER) */
+#tax_slug_lookup {
+	display:none;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.8);
+	z-index:999999;
+}
+#tax_slug_lookup #slug_lookup_container {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:600px;
+	max-width:90%;
+	height:600px;
+	max-height:90%;
+	margin:0px auto;
+	background-color:#ffffff;
+	padding:20px;
+}
+#tax_slug_lookup #slug_lookup_container .lookup_close {
+	position:absolute;
+	top:0px;
+	right:0px;
+	display:block;
+	padding:5px 0px;
+	width:30px;
+	text-align:center;
+	font-size:20px;
+	line-height:20px;
+	color:#ffffff;
+	background-color:rgba(0,125,178,0.7);
+	cursor:pointer;
+	transition:background .3s ease-in-out;
+	-webkit-transition:background .3s ease-in-out;
+	-moz-transition:background .3s ease-in-out;
+	-o-transition:background .3s ease-in-out;
+}
+#tax_slug_lookup #slug_lookup_container .lookup_close:hover {
+	background-color:#007db2;
+}
+#tax_slug_lookup #slug_lookup_container > h3 {
+	margin:0px 0px 10px !important;
+	padding:0px 0px 10px !important;
+	color:#c0c0c0 !important;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:400 !important;
+	font-size:14px !important;
+	line-height:14px !important;
+	border-bottom:solid 1px #e0e0e0 !important;
+}
+#ajax_container_tax_slug_lookup {
+	position:relative;
+	height:90%;
+	height:calc(100% - 36px);
+}
+#ajax_container_tax_slug_lookup .popup_ajax_loading {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:#c0c0c0 !important;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:400 !important;
+	font-size:16px !important;
+	line-height:16px !important;
+	letter-spacing:2px !important;
+}
+#ajax_container_tax_slug_lookup #tax_lookup_list {
+	height:100%;
+	overflow:auto;
+}
+#ajax_container_tax_slug_lookup #tax_lookup_list h2 {
+	margin:0px !important;
+	padding:0px 0px 10px !important;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:400 !important;
+	font-size:18px !important;
+	line-height:24px !important;
+	color:#303030 !important;
+}
+#ajax_container_tax_slug_lookup #tax_lookup_list table {
+	border-spacing:0px !important;
+	border-collapse:separate !important;
+	width:100% !important;
+	margin:0px !important;
+	border-top:solid 1px #e8e8e8 !important;
+	border-left:solid 1px #e8e8e8 !important;
+	border-bottom-style:none !important;
+	border-right-style:none !important;
+}
+#ajax_container_tax_slug_lookup #tax_lookup_list table tr:hover td {
+	background-color:#f8f8f8;
+}
+#ajax_container_tax_slug_lookup #tax_lookup_list table tr th,
+#ajax_container_tax_slug_lookup #tax_lookup_list table tr td {
+	border-top-style:none !important;
+	border-left-style:none !important;
+	border-right:solid 1px #e8e8e8 !important;
+	border-bottom:solid 1px #e8e8e8 !important;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:400 !important;
+	font-size:13px !important;
+	line-height:18px !important;
+	cursor:default !important;
+}
+#ajax_container_tax_slug_lookup #tax_lookup_list table tr th {
+	padding:6px 5px !important;
+	text-align:left !important;
+	background-color:#f3f3f3 !important;
+	color:#303030 !important;
+}
+#ajax_container_tax_slug_lookup #tax_lookup_list table tr td {
+	padding:4px 5px !important;
+	text-align:left !important;
+	color:#808080 !important;
+}
+#ajax_container_tax_slug_lookup #tax_lookup_list table tr td em {
+	display:inline-block;
+	width:20px;
+}
+#ajax_container_tax_slug_lookup #tax_lookup_list table tr td span {
+	display:inline-block;
+	padding-left:5px;
+	color:#c0c0c0 !important;
+}
+#ajax_container_tax_slug_lookup #tax_lookup_list table tr td .add_slug_button {
+	display:inline-block;
+	padding:5px 7px;
+	background-color:#c0c0c0 !important;
+	color:#ffffff !important;
+	border-radius:5px;
+	cursor:pointer;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:400 !important;
+	font-size:11px !important;
+	line-height:11px !important;
+	transition:background .3s ease-in-out;
+	-webkit-transition:background .3s ease-in-out;
+	-moz-transition:background .3s ease-in-out;
+	-o-transition:background .3s ease-in-out;
+}
+#ajax_container_tax_slug_lookup #tax_lookup_list table tr td .add_slug_button:hover {
+	background-color:#007db2 !important;
+}
+#ajax_container_tax_slug_lookup #tax_lookup_list table tr td.no_terms_found {
+	padding:7px 5px !important;
+	text-align:center !important;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:400 !important;
+	font-size:12px !important;
+	line-height:16px !important;
+	color:#c0c0c0 !important;
+}
+
+/* POST ID LOOKUP POPUP (WITH AJAX CONTAINER) */
+#post_id_lookup {
+	display:none;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.8);
+	z-index:999999;
+}
+#post_id_lookup #post_id_lookup_container {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:600px;
+	max-width:90%;
+	height:600px;
+	max-height:90%;
+	margin:0px auto;
+	background-color:#ffffff;
+	padding:20px;
+}
+#post_id_lookup #post_id_lookup_container .lookup_close {
+	position:absolute;
+	top:0px;
+	right:0px;
+	display:block;
+	padding:5px 0px;
+	width:30px;
+	text-align:center;
+	font-size:20px;
+	line-height:20px;
+	color:#ffffff;
+	background-color:rgba(0,125,178,0.7);
+	cursor:pointer;
+	transition:background .3s ease-in-out;
+	-webkit-transition:background .3s ease-in-out;
+	-moz-transition:background .3s ease-in-out;
+	-o-transition:background .3s ease-in-out;
+}
+#post_id_lookup #post_id_lookup_container .lookup_close:hover {
+	background-color:#007db2;
+}
+#post_id_lookup #post_id_lookup_container > h3 {
+	margin:0px 0px 10px !important;
+	padding:0px 0px 10px !important;
+	color:#c0c0c0 !important;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:400 !important;
+	font-size:14px !important;
+	line-height:14px !important;
+	border-bottom:solid 1px #e0e0e0 !important;
+}
+#ajax_container_post_id_lookup {
+	position:relative;
+	height:90%;
+	height:calc(100% - 36px);
+}
+#ajax_container_post_id_lookup .popup_ajax_loading {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:#c0c0c0 !important;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:400 !important;
+	font-size:16px !important;
+	line-height:16px !important;
+	letter-spacing:2px !important;
+}
+#ajax_container_post_id_lookup #post_id_lookup_list {
+	height:100%;
+	overflow:auto;
+}
+#ajax_container_post_id_lookup #post_id_lookup_list h2 {
+	margin:0px !important;
+	padding:0px 0px 10px !important;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:400 !important;
+	font-size:18px !important;
+	line-height:24px !important;
+	color:#303030 !important;
+}
+#ajax_container_post_id_lookup #post_id_lookup_list table {
+	border-spacing:0px !important;
+	border-collapse:separate !important;
+	width:100% !important;
+	margin:0px !important;
+	border-top:solid 1px #e8e8e8 !important;
+	border-left:solid 1px #e8e8e8 !important;
+	border-bottom-style:none !important;
+	border-right-style:none !important;
+}
+#ajax_container_post_id_lookup #post_id_lookup_list table tr:hover td {
+	background-color:#f8f8f8;
+}
+#ajax_container_post_id_lookup #post_id_lookup_list table tr th,
+#ajax_container_post_id_lookup #post_id_lookup_list table tr td {
+	border-top-style:none !important;
+	border-left-style:none !important;
+	border-right:solid 1px #e8e8e8 !important;
+	border-bottom:solid 1px #e8e8e8 !important;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:400 !important;
+	font-size:13px !important;
+	line-height:18px !important;
+	cursor:default !important;
+}
+#ajax_container_post_id_lookup #post_id_lookup_list table tr th {
+	padding:6px 5px !important;
+	text-align:left !important;
+	background-color:#f3f3f3 !important;
+	color:#303030 !important;
+}
+#ajax_container_post_id_lookup #post_id_lookup_list table tr td {
+	padding:4px 5px !important;
+	text-align:left !important;
+	color:#808080 !important;
+}
+#ajax_container_post_id_lookup #post_id_lookup_list table tr td em {
+	display:inline-block;
+	width:20px;
+}
+#ajax_container_post_id_lookup #post_id_lookup_list table tr td span {
+	display:inline-block;
+	padding-left:5px;
+	color:#c0c0c0 !important;
+}
+#ajax_container_post_id_lookup #post_id_lookup_list table tr td .add_id_button {
+	display:inline-block;
+	padding:5px 7px;
+	background-color:#c0c0c0 !important;
+	color:#ffffff !important;
+	border-radius:5px;
+	cursor:pointer;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:400 !important;
+	font-size:11px !important;
+	line-height:11px !important;
+	transition:background .3s ease-in-out;
+	-webkit-transition:background .3s ease-in-out;
+	-moz-transition:background .3s ease-in-out;
+	-o-transition:background .3s ease-in-out;
+}
+#ajax_container_post_id_lookup #post_id_lookup_list table tr td .add_id_button:hover {
+	background-color:#007db2 !important;
+}
+#ajax_container_post_id_lookup #post_id_lookup_list table tr td.no_posts_found {
+	padding:7px 5px !important;
+	text-align:center !important;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:400 !important;
+	font-size:12px !important;
+	line-height:16px !important;
+	color:#c0c0c0 !important;
+}
+
+/* AJAX CONTAINER - POST SORTING */
+#ajax_container_post_type_sorting {
+	padding:10px 0px 0px;
+}
+#ajax_container_post_type_sorting .sap_sort_order_line {
+	margin:0px;
+	padding:0px 0px 10px;
+	clear:both;
+	float:none;
+	width:100%;
+}
+#ajax_container_post_type_sorting .sap_sort_order_line span {
+	display:inline-block;
+	min-width:70px;
+	padding-right:10px;
+	font-size:14px;
+	line-height:20px;
+	color:#303030;
+	cursor:default;
+}
+#ajax_container_post_type_sorting .sap_sort_order_line select {
+	margin:0px;
+	padding:0px 4px;
+	font-size:13px;
+	line-height:26px;
+	color:#303030;
+	height:28px !important;
+	outline: none !important;
+	border: solid 1px #e0e0e0 !important;
+	box-shadow: none !important;
+}
+
+/* ### METABOX 'Insert Post Type Info' ### */
+#sapa_slider_insert {
+	margin:20px 0px 0px;
+}
+/* image sizes dropdown */
+#sapa_slider_insert #sap_insert_dropdown_options {
+	float:right;
+	padding:0px;
+}
+#sapa_slider_insert #sap_insert_dropdown_options div select {
+	display:block !important;
+	float:left !important;
+	margin:5px 0px 0px !important;
+	padding:0px 5px !important;
+	font-size:12px !important;
+	line-height:26px !important;
+	border:solid 1px #e0e0e0 !important;
+	border-radius:5px !important;
+	outline-color:transparent !important;
+	color:#909090 !important;
+	box-shadow:none !important;
+	width:320px !important;
+	max-width:90% !important;
+	height:28px !important;
+}
+#sapa_slider_insert #sap_insert_dropdown_options div select option {
+	font-size:12px !important;
+	line-height:16px !important;
+}
+#sapa_slider_insert #sap_insert_dropdown_options div i {
+	display:block !important;
+	float:left !important;
+	margin:11px 0px 0px 5px !important;
+	cursor:help !important;
+}
+/* introduction text */
+#sapa_slider_insert .inside > h4 {
+	margin:0px !important;
+	padding:0px !important;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:400 !important;
+	font-size:14px !important;
+	line-height:22px !important;
+	color:#909090;
+	cursor:default;
+}
+#sapa_slider_insert .inside > h4 strong {
+	font-weight:normal;
+	color:#000000;
+}
+@media screen and (max-width: 1399px) {
+	#sapa_slider_insert #sap_insert_dropdown_options { float:none; }
+	#sapa_slider_insert #sap_insert_dropdown_options div { width:100% !important; clear:both; float:none; }
+	#sapa_slider_insert .inside > h4 { clear:both; float:none; width:100%; padding:8px 0px 0px !important; }
+}
+@media screen and (max-width: 1099px) {
+	#sapa_slider_insert .inside > h4 br { display:none; }
+}
+/* ajax container for insert fields */
+#ajax_container_insert_fields {
+	padding:0px 0px 5px;
+}
+#ajax_container_insert_fields .ajax_loading {
+	padding:15px 0px 5px !important;
+}
+/* insert buttons */
+#ajax_container_insert_fields .sap_insert_buttons {
+	margin:10px 0px 0px;
+}
+#ajax_container_insert_fields .sap_insert_buttons h3 {
+	margin:0px !important;
+	padding:5px 0px 0px 3px !important;
+	color:#000000 !important;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:400 !important;
+	font-size:14px !important;
+	line-height:14px !important;
+	cursor:default;
+}
+#ajax_container_insert_fields .sap_insert_buttons .sap_ins_button {
+	display:inline-block !important;
+	margin:4px 2px 0px !important;
+	padding:5px 10px !important;
+	background-color:#007db2 !important;
+	color:#ffffff !important;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:400 !important;
+	font-size:13px !important;
+	line-height:18px !important;
+	border-radius:5px !important;
+	cursor:pointer;
+	transition:background .3s ease-in-out;
+	-webkit-transition:background .3s ease-in-out;
+	-moz-transition:background .3s ease-in-out;
+	-o-transition:background .3s ease-in-out;
+}
+#ajax_container_insert_fields .sap_insert_buttons .sap_ins_button:hover {
+	background-color:#000000 !important;
+}
+#ajax_container_insert_fields .sap_insert_buttons .sap_ins_button i {
+	display:block !important;
+	float:left !important;
+	padding-right:8px !important;
+	font-size:18px !important;
+	line-height:18px !important;
+}
+
+/* ### METABOX 'Slider Settings' ### */
+#sap_slider_settings {
+	padding:10px 0px 0px;
+}
+#sap_slider_settings hr {
+	clear:both !important;
+	width:100% !important;
+	margin:20px 0px !important;
+	border-top-style:none !important;
+	border-bottom:solid 1px #e8e8e8 !important;
+}
+/* number of slides */
+#sap_slider_settings #sap_num_slides_line {
+	margin:0px !important;
+	height:30px !important;
+	padding:5px 0px 0px 5px !important;
+}
+#sap_slider_settings #sap_num_slides_line #nos_label {
+	float:left !important;
+	font-size:14px !important;
+	line-height:30px !important;
+}
+#sap_slider_settings #sap_num_slides_line input {
+	width:50px !important;
+	margin:0px !important;
+	outline-style:none !important;
+	border-style:none !important;
+	box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	color:#303030 !important;
+	font-size:14px !important;
+	line-height:20px !important;
+	height:auto !important;
+	padding:4px 6px !important;
+	background-color:#ffffff !important;
+}
+#sap_slider_settings #sap_num_slides_line .sap_tooltip {
+	margin-left:10px !important;
+	top:12px !important;
+}
+/* other slider settings */
+#sap_slider_settings .sap_slider_value {
+	position:relative;
+	margin:0px 5px 15px;
+}
+#sap_slider_settings .sap_slider_value span {
+	display:inline-block;
+	padding-right:10px;
+	color:#303030;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-size:14px;
+	line-height:20px;
+	cursor:default;
+}
+#sap_slider_settings .sap_slider_value .sap_tooltip {
+	position:absolute;
+	top:5px;
+	margin-left:6px !important;
+	cursor:help;
+}
+#sap_slider_settings .sap_slider_value input {
+	width:40px !important;
+	margin:0px !important;
+	border-style:none !important;
+	border-radius:3px !important;
+	outline-color:transparent !important;
+	box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	background-color:#f0f0f0 !important;
+}
+#sap_slider_settings .sap_slider_value em {
+	display:inline-block;
+	padding-left:5px;
+	color:#a0a0a0;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-size:14px;
+	line-height:20px;
+	cursor:default;
+}
+#sap_slider_settings .jquery_ui_slider {
+	margin:0px 5px 5px !important; 
+	background-color:#007fff !important;
+	border-radius:0px !important;
+}
+#sap_slider_settings .jquery_ui_slider .ui-slider-handle {
+	outline-color:transparent !important;
+	background-color:#f0f0f0 !important;
+	border-color:#c0c0c0 !important;
+	transition:background .3s ease-in-out;
+	-webkit-transition:background .3s ease-in-out;
+	-moz-transition:background .3s ease-in-out;
+	-o-transition:background .3s ease-in-out;
+}
+#sap_slider_settings .jquery_ui_slider .ui-slider-handle:hover,
+#sap_slider_settings .jquery_ui_slider .ui-slider-handle:focus {
+	background-color:#d0d0d0 !important;
+}
+#sap_slider_settings .jquery_ui_slider .ui-slider-range {
+	border-radius:0px !important;
+}
+.half_width_column {
+	float:left;
+	width:50%;
+}
+.half_width_column .sap_setting_checkbox {
+	position:relative;
+	padding:0px 5px 10px 5px;
+}
+.half_width_column .sap_setting_checkbox span {
+	display:inline-block;
+	width:125px;
+	color:#303030;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-size:14px;
+	line-height:20px;
+	cursor:default;
+}
+.half_width_column .sap_setting_checkbox .sap_tooltip {
+	position:absolute;
+	top:2px;
+	margin-left:5px !important;
+	cursor:help;
+}
+@media only screen and (max-width:479px) {
+	.half_width_column { float:none; width:100%; }
+}
+
+/* ### METABOX 'Slider Shortcode' ### */
+#sap_slider_shortcode {
+	display:block;
+	margin:10px 0px 0px;
+	padding:7px 10px;
+	background-color:#f0f0f0;
+	color:firebrick;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:normal;
+	font-size:14px;
+	line-height:20px;
+	border-radius:3px;
+	text-align:center;
+	cursor:default;
+}
+#sap_shortcode_copy {
+	float:none;
+	margin:10px 0px 0px;
+}
+#sap_preview_slider {
+	float:right;
+	margin:10px 0px 0px;
+}
+#sap_preview_popup {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.8);
+	z-index:100041;
+}
+#sap_preview_popup #sap_preview_wrapper {
+	position:absolute;
+	box-sizing:border-box;
+	width:96%;
+	top:4%;
+	left:2%;
+	padding:20px 30px;
+	background-color:#ffffff;
+}
+#sap_preview_popup #sap_preview_wrapper #sap_preview_close {
+	position:absolute;
+	top:0px;
+	right:0px;
+	padding:3px 0px;
+	width:30px;
+	text-align:center;
+	font-weight:bold;
+	font-size:24px;
+	line-height:24px;
+	color:#000000;
+	cursor:pointer;
+	transition:background .3s ease-in-out;
+	-webkit-transition:background .3s ease-in-out;
+	-moz-transition:background .3s ease-in-out;
+	-o-transition:background .3s ease-in-out;
+}
+#sap_preview_popup #sap_preview_wrapper #sap_preview_close:hover {
+	background-color:#d0d0d0;
+}
+
+/* ### METABOX 'Slide Background' ### */
+#sapa_slide_background .inside {
+	margin-top:15px !important;
+}
+#sapa_slide_background .ajax_loading {
+	padding:4px 0px 7px !important;
+}
+#sapa_slide_background .slide_bg_line {
+	padding:0px 0px 10px !important;
+}
+#sapa_slide_background .slide_bg_line span {
+	display:inline-block;
+	padding-right:5px !important;
+	min-width:130px !important;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-size: 13px !important;
+	line-height:16px !important;
+	color:#303030 !important;
+	cursor:default;
+}
+#sapa_slide_background .slide_bg_line #sap_slide_bg_color {
+	display:none !important
+}
+#sapa_slide_background .slide_bg_line .sp-replacer { /* spectrum color picker */
+	background-color:#f0f0f0 !important;
+	border:solid 1px #e0e0e0 !important;
+	padding:2px !important;
+	border-radius:3px !important;
+}
+#sapa_slide_background .slide_bg_line .sp-replacer .sp-preview { /* spectrum color picker */
+	width:28px !important;
+	height:16px !important;
+	border:solid 1px #c0c0c0 !important;
+	margin-right:3px !important;
+}
+#sapa_slide_background .slide_bg_line .sp-replacer .sp-dd { /* spectrum color picker */
+	height:16px !important;
+	padding:0px !important;
+	margin-right:2px !important;
+}
+#sapa_slide_background .slide_bg_line input[type=checkbox] {
+	margin-left:5px !important;
+	margin-left:0px !important;
+}
+#sapa_slide_background #use_featured_bg_container {
+	padding:10px 0px 0px !important;
+	cursor:default;
+}
+#sapa_slide_background .slide_bg_line select,
+#sapa_slide_background #slide_bg_wp_imagesize_line select {
+	display:inline-block !important;
+	margin:0px !important;
+	padding:0px 2px !important;
+	font-size:13px !important;
+	line-height:24px !important;
+	color:#000000 !important;
+	height:26px !important;
+	outline:none !important;
+	border:solid 1px #e0e0e0 !important;
+	box-shadow:none !important;
+	cursor:default;
+}
+#sapa_slide_background #slide_bg_wp_imagesize_line {
+	padding:5px 0px 0px !important;
+}
+#sapa_slide_background #slide_bg_wp_imagesize_line select {
+	margin:5px 0px 5px !important;
+	font-size:12px !important;
+	color:#909090 !important;
+}
+
+/* ### METABOX 'Items Displayed' ### */
+#items_displayed_metabox > h4 {
+	color:#303030;
+	margin:10px 0px 5px;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-size:14px;
+	font-weight:600;
+	line-height:20px;
+}
+#items_displayed_metabox > div {
+	clear:both;
+}
+#items_displayed_metabox > div em {
+	display:block;
+	float:left;
+	margin-left:10px;
+	line-height:30px !important;
+	height:32px !important;
+	background-position:0px 8px !important;
+	cursor:help;
+}
+#items_displayed_metabox > div span {
+	display:block;
+	float:left;
+	padding-left:5px;
+	color:#303030;
+	width:120px;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:400;
+	font-size:13px;
+	line-height:32px;
+	height:32px !important;
+	cursor:default;
+}
+#items_displayed_metabox > div select {
+	display:inline-block !important;
+	margin:1px 1px 3px !important;
+	max-width:50px !important;
+	padding:0px 2px !important;
+	font-size:13px !important;
+	line-height:24px !important;
+	color:#000000 !important;
+	height:26px !important;
+	outline:none !important;
+	border:solid 1px #e0e0e0 !important;
+	box-shadow:none !important;
+}
+
+/* ### METABOX 'Slider Style' ### */
+#slider_style_metabox h4 {
+	position:relative;
+	color:#303030;
+	margin:15px 0px 7px;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-size:14px;
+	font-weight:600;
+	line-height:20px;
+	cursor:default !important;
+}
+#slider_style_metabox h4 span {
+	color:#909090 !important;
+	font-weight:400;
+}
+#slider_style_metabox h4 span {
+	color:firebrick;
+}
+#slider_style_metabox h4 em {
+	display:inline-block;
+	position:absolute;
+	top:1px;
+	width:16px;
+	height:16px;
+	background-position:0px 0px  !important;
+	cursor:help;
+	margin-left:5px;
+}
+#slider_style_metabox #sap_css_id {
+	width:100%;
+	margin-bottom:15px;
+	font-size:14px !important;
+	line-height:20px !important;
+	padding:5px 7px !important;
+}
+#slider_style_metabox #css_note_text {
+	padding-left:3px;
+	padding-bottom:5px;
+}
+#slider_style_metabox #css_note_value {
+	margin-left:3px;
+	margin-bottom:25px !important;
+	padding:4px 5px 4px 32px;
+	background:#f0f0f0 url('../images/icon_copy.png') no-repeat 2px 2px;
+	font-size:13px;
+	line-height:20px;
+	height:20px;
+	color:firebrick;
+	cursor:pointer;
+}
+#slider_style_metabox .ca_style_hr {
+	border-top:solid 1px #e0e0e0;
+	width:80%;
+	margin:0px 10%;
+}
+/* slider padding*/
+#slider_style_metabox .ca_style_padding > div {
+	float:left;
+	display:inline-block;
+	background-color:transparent;
+	background-repeat:no-repeat;
+	background-position:0px 2px;
+	width:45px;
+	height:23px;
+	padding:0px 0px 3px 19px;
+}
+#slider_style_metabox .ca_style_padding #padd_top { background-image:url('../images/padding_top.png'); }
+#slider_style_metabox .ca_style_padding #padd_right { background-image:url('../images/padding_right.png'); }
+#slider_style_metabox .ca_style_padding #padd_bottom { background-image:url('../images/padding_bottom.png'); }
+#slider_style_metabox .ca_style_padding #padd_left { background-image:url('../images/padding_left.png'); width:38px !important; }
+
+#slider_style_metabox .ca_style_padding div input {
+	width:33px !important;
+	margin:3px 2px !important;
+	outline-style:none !important;
+	border-style:none !important;
+	box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	color:#303030 !important;
+	font-size:13px !important;
+	padding:0px !important;
+}
+/* slide style & Style for Slides */
+#slider_style_metabox .ca_style_setting_line {
+	padding-left:5px;
+	padding-bottom:10px;
+}
+#slider_style_metabox .ca_style_setting_line span {
+	display:inline-block;
+	width:110px;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-size:13px;
+	line-height:18px;
+	cursor:default !important;
+}
+#slider_style_metabox .ca_style_setting_line .ui-spinner {
+	width:auto !important;
+}
+#slider_style_metabox .ca_style_setting_line input[type='text'] {
+	width:50px !important;
+	margin:3px 5px !important;
+	outline-style:none !important;
+	border-style:none !important;
+	box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	color:#303030 !important;
+	font-size:13px !important;
+	padding:0px !important;
+	background-color:#ffffff !important;
+}
+#slider_style_metabox .ca_style_setting_line input[type='checkbox'] {
+	margin-left:5px !important;
+	margin-right:5px !important;
+}
+#slider_style_metabox .ca_style_setting_line em {
+	display:inline-block;
+	padding:0px 10px 0px 5px;
+	font-style:normal;
+	color:#a0a0a0;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-size:14px;
+	line-height:18px;
+}
+#slider_style_metabox .ca_style_setting_line .sp-replacer { /* spectrum color picker */
+	background-color:#f0f0f0 !important;
+	border:solid 1px #e0e0e0 !important;
+	padding:2px !important;
+	border-radius:3px !important;
+}
+#slider_style_metabox .ca_style_setting_line .sp-replacer .sp-preview { /* spectrum color picker */
+	width:28px !important;
+	height:16px !important;
+	border:solid 1px #c0c0c0 !important;
+	margin-right:3px !important;
+}
+#slider_style_metabox .ca_style_setting_line .sp-replacer .sp-dd { /* spectrum color picker */
+	height:16px !important;
+	padding:0px !important;
+	margin-right:2px !important;
+}
+#slider_style_metabox #sap_border_width,
+#slider_style_metabox #sap_border_radius {
+	width:35px !important;
+}
+#slider_style_metabox #ca_style_min_height span {
+	width:80px;
+	background-position:0px 1px  !important;
+	height:20px !important;
+	padding-left:20px !important;
+	padding-bottom:3px !important;
+	cursor:help !important;
+}
+#slider_style_metabox #ca_style_min_height em {
+	padding:0px 8px 0px 0px !important;
+	color:#404040 !important;
+	font-size:13px !important;
+	line-height:18px !important;
+}
+#slider_style_metabox #ca_style_padding_top_bottom {
+	background:transparent url('../images/padding_top_bottom.png') no-repeat 5px 0px !important;
+	padding-left:28px !important;
+}
+#slider_style_metabox #ca_style_padding_left_right,
+#slider_style_metabox #ca_style_margin_left_right {
+	background:transparent url('../images/padding_left_right.png') no-repeat 5px 0px !important;
+	padding-left:28px !important;
+}
+#slider_style_metabox #ca_style_padding_top_bottom > span,
+#slider_style_metabox #ca_style_padding_left_right > span,
+#slider_style_metabox #ca_style_margin_left_right > span {
+	width:87px;
+	background-position:67px 2px  !important;
+	height:20px !important;
+	cursor:help !important;
+}
+/* navigation arrows */
+#sap_custom_nav_arrows {
+	margin:0px 0px 10px;
+	padding:0px 10px;
+	background-color:#f8f8f8;
+	overflow:hidden !important;
+	transition:all .5s ease-in-out;
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+}
+#sap_custom_nav_arrows .ca_style_setting_line {
+	padding-left:0px !important;
+}
+#sap_custom_nav_arrows .ca_style_setting_line > span {
+	width:130px !important;
+	font-size:12px !important;
+	line-height:16px !important;
+}
+#sap_custom_nav_arrows .ca_style_setting_line > em {
+	font-size:12px !important;
+	line-height:16px !important;
+}
+#slider_style_metabox .ca_style_setting_line_url {
+	padding:0px 0px 10px;
+}
+#slider_style_metabox .ca_style_setting_line_url span {
+	display:block;
+	padding:0px 0px 3px;
+	width:100%;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-size:12px !important;
+	line-height:16px !important;
+	cursor:default !important;
+}
+#slider_style_metabox .ca_style_setting_line_url input {
+	width:100%;
+	margin:0px;
+	font-size:12px !important;
+	line-height:16px !important;
+	padding:4px 6px !important;
+	background-color:#ffffff !important;
+}
+/* link to single post */
+#sap_post_link_wrapper {
+	margin:0px;
+	padding:0px;
+	overflow:hidden !important;
+	transition:all .5s ease-in-out;
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+}
+#sap_custom_link_wrapper {
+	margin:0px;
+	padding:0px 10px;
+	background-color:#f8f8f8;
+	overflow:hidden !important;
+	transition:all .5s ease-in-out;
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+}
+#sap_link_button_only_wrapper {
+	margin:0px;
+	padding:0px;
+	overflow:hidden !important;
+	transition:all .5s ease-in-out;
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+}
+#sap_custom_link_wrapper .ca_style_setting_line {
+	padding-left:0px !important;
+}
+#sap_custom_link_wrapper .ca_style_setting_line > span {
+	width:130px !important;
+	font-size:12px !important;
+	line-height:16px !important;
+}
+#sap_custom_link_wrapper .ca_style_setting_line > em {
+	font-size:12px !important;
+	line-height:16px !important;
+}
+#sap_custom_link_wrapper #sap_slide_link_location {
+	font-size:12px !important;
+	line-height:24px !important;
+	height:24px !important;
+}
+
+
+
+
+
+/* advanced settings */
+#slider_style_metabox #sap_advanced_settings_line {
+	float:none !important;
+	clear:both !important;
+	width:100% !important;
+	height:20px !important;
+	padding:0px 0px 10px !important;
+	cursor:default !important;
+}
+#slider_style_metabox #sap_advanced_settings_line em {
+	display:block !important;
+	float:left !important;
+	margin:2px 5px 2px 0px !important;
+	cursor:help !important;
+}
+#slider_style_metabox #sap_advanced_settings_line span {
+	display:block !important;
+	float:left !important;
+	padding-right:5px !important;
+	cursor:default !important;
+	font-size:13px !important;
+	line-height:20px !important;
+	min-width:165px !important;
+}
+#slider_style_metabox #sap_advanced_settings_line input[type=checkbox] {
+	display:block !important;
+	float:left !important;
+	margin:2px 0px 0px !important;
+}
+
+/* ### JQUERY UI - TOOLTIPS ### */
+.sap_tooltip {
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background:transparent url('../images/icon_info.png') no-repeat top left;
+}
+
+/* ### JQUERY UI - CONFIRMATION DIALOG BOXES ### */
+#sap_dialog_box {
+	display:none;
+}
+.ui-dialog[aria-describedby='sap_dialog_box'] .ui-dialog-titlebar {
+	padding:7px 12px !important;
+	line-height:22px !important;
+	height:22px !important;
+}
+.ui-dialog[aria-describedby='sap_dialog_box'] .ui-dialog-titlebar .ui-dialog-title {
+	color:#333333 !important;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:bold !important;
+	font-size:16px !important;
+	line-height:22px !important;
+}
+.ui-dialog[aria-describedby='sap_dialog_box'] .ui-dialog-titlebar button:before {
+	font-size:16px !important;
+	line-height:16px !important;
+	height:16px !important;
+	width:16px !important;
+}
+.ui-dialog[aria-describedby='sap_dialog_box'] #sap_dialog_box {
+	padding:15px 10px 10px !important;
+}
+
+/* ### JQUERY UI - PREVIEW SLIDER DIALOG BOX ### */
+#sap_preview_box {
+	display:none;
+}
+.ui-dialog[aria-describedby='sap_preview_box'] {
+	position:fixed !important;
+	width:90% !important;
+	top:60px !important;
+	z-index:9999 !important;
+}
+.ui-dialog[aria-describedby='sap_preview_box'] .ui-dialog-titlebar {
+	padding:7px 12px !important;
+	line-height:22px !important;
+	height:22px !important;
+}
+.ui-dialog[aria-describedby='sap_preview_box'] .ui-dialog-titlebar .ui-dialog-title {
+	color:#333333 !important;
+	font-family:'Open Sans', Arial, sans-serif !important;
+	font-weight:bold !important;
+	font-size:16px !important;
+	line-height:22px !important;
+}
+.ui-dialog[aria-describedby='sap_preview_box'] .ui-dialog-titlebar button:before {
+	font-size:16px !important;
+	line-height:16px !important;
+	height:16px !important;
+	width:16px !important;
+}
+.ui-dialog[aria-describedby='sap_preview_box'] #sap_preview_box {
+	padding:20px 15px 15px !important;
+}
+.ui-dialog[aria-describedby='sap_preview_box'] #sap_preview_box #sap_preview_note {
+	padding-top:20px;
+	font-size:13px;
+	line-height:20px;
+	color:#a0a0a0;
+}
+.ui-widget-overlay {
+	background-color:rgba(0,0,0,0.7) !important;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity:1.0;
+	opacity:1.0;
+}
+
+/* ### JQUERY UI - SPINNER ### */
+.ui-state-default .ui-icon {
+	background-image:url('../images/ui-icons_777777_256x240.png') !important;
+}
+.ui-state-hover .ui-icon {
+	background-image:url('../images/ui-icons_444444_256x240.png') !important;
+}
+
+
+
+/*
+####################################
+### SLIDE ANYTHING SETTINGS PAGE ###
+####################################
+*/
+#sap_settings_page_wrapper h1 {
+	margin:0px;
+	padding:20px 0px 10px;
+	font-size:26px !important;
+	line-height:32px !important;
+}
+#sap_settings_page_wrapper h2 {
+	margin:0px;
+	padding:20px 0px 20px;
+	font-size:18px !important;
+	line-height:24px !important;
+}
+#sap_settings_page_wrapper > p,
+#sap_settings_page_wrapper > form > p {
+	margin:0px;
+	padding:0px 0px 10px;
+	font-size:15px;
+	line-height:22px;
+}
+#sap_settings_page_wrapper > p a {
+	color:#0073aa;
+	text-decoration:none;
+}
+#sap_settings_page_wrapper > p a:hover {
+	text-decoration:underline;
+}
+#sap_settings_page_wrapper ol {
+	margin:0px 0px 0px 20px;
+}
+#sap_settings_page_wrapper ol li {
+	font-size:15px;
+	line-height:22px;
+	margin:2px 0px 0px;
+	padding:0px;
+}
+#sap_settings_page_wrapper ol li h4 {
+	margin:0px;
+	padding:0px;
+	font-size:15px !important;
+	line-height:22px !important;
+}
+#sap_settings_page_wrapper ol li p {
+	margin:0px;
+	padding:0px;
+	font-size:14px;
+	line-height:22px;
+}
+#sap_settings_page_wrapper ol li ul {
+	list-style-type:disc;
+	margin:0px 0px 10px 25px;
+}
+#sap_settings_page_wrapper ol li ul li {
+	margin:0px;
+	padding:0px;
+	font-size:14px !important;
+	line-height:22px !important;
+}
+#sap_settings_page_wrapper > form > table {
+	margin:0px;
+}
+#sap_settings_page_wrapper > form > table tr th {
+	width:180px;
+	padding:10px 10px 10px 20px;
+	line-height:27px;
+}
+#sap_settings_page_wrapper > form > table tr td {
+	padding:10px 0px 10px 10px;
+}
+#sap_settings_page_wrapper > form > table tr td input[type=text] {
+	width:300px;
+	max-width:90%;
+}
+#sap_settings_page_wrapper > form input[type=submit] {
+	margin:10px 0px 0px 20px;
+}
+#sap_settings_page_wrapper #sap_settings_page_message {
+	display:inline-block;
+	margin:20px 0px 0px 20px;
+	padding:7px 12px;
+	background-color:#ffffff;
+	color:green;
+	border:solid 1px #d8d8d8;
+	border-radius:5px;
+	font-size:18px;
+	line-height:24px;
+	font-weight:normal;
+}
+@media screen and (max-width:782px) {
+	#sap_settings_page_wrapper > form > table tr th { padding:10px 0px 0px 2px; }
+	#sap_settings_page_wrapper > form > table tr td { padding:0px 0px 10px 0px; }
+	#sap_settings_page_wrapper #sap_settings_page_message { margin:20px 0px 0px 0px; font-size:16px; line-height:22px; }
+}
